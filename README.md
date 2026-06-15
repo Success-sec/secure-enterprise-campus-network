@@ -1,11 +1,11 @@
 # Secure Enterprise Campus Network & Perimeter Firewall Design
 
-## 📋 Project Overview
+##  Project Overview
 This project demonstrates the design and implementation of a secure, production-ready enterprise network architecture using Cisco Packet Tracer. The infrastructure leverages a Layer 3 Multilayer Switch at the core to handle high-speed internal routing, isolates departmental traffic using Virtual Local Area Networks (VLANs), and enforces perimeter security via a Cisco ASA Firewall.
 
 ---
 
-## 🗺️ Network Architecture & VLAN Breakdown
+##  Network Architecture & VLAN Breakdown
 
 The internal network is segmented into distinct broadcast domains to optimize bandwidth, restrict unnecessary broadcast traffic, and enforce security policies.
 
@@ -24,7 +24,7 @@ In a standard out-of-the-box configuration, all Cisco switch ports belong to VLA
 
 ---
 
-## ⚙️ Core Technical Implementation Details
+##  Core Technical Implementation Details
 
 ### 1. Layer 3 Core Routing (Inter-VLAN)
 Instead of relying on a traditional router (Router-on-a-Stick), a **Multilayer Switch** functions as the high-speed backbone core. 
@@ -45,7 +45,7 @@ A **Cisco ASA Firewall** protects the boundary between the internal network and 
 
 ---
 
-## 🧪 Verification & Proof of Connectivity
+##  Verification & Proof of Connectivity
 
 Network functionality and security enforcement were verified using targeted ICMP ping simulations within Packet Tracer:
 
@@ -55,11 +55,11 @@ Network functionality and security enforcement were verified using targeted ICMP
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ---
 
-## 🎯 Key Learning Outcomes
+##  Key Learning Outcomes
 
 This lab demonstrates:
 - ✅ Multi-layer enterprise network design
@@ -73,7 +73,7 @@ This lab demonstrates:
 
 ---
 
-## 🚀 How to Use This Lab
+##  How to Use This Lab
 
 1. **Open Packet Tracer**: Load the `.pkt` file from the `packet-tracer/` folder
 2. **Review Documentation**: Start with README.md (you're reading it!)
@@ -84,7 +84,7 @@ This lab demonstrates:
 
 ---
 
-## 🔧 Technologies & Concepts Used
+##  Technologies & Concepts Used
 
 - **Cisco Packet Tracer** - Network simulation software
 - **Multilayer Switches (L3)** - Core routing infrastructure
@@ -97,7 +97,7 @@ This lab demonstrates:
 
 ---
 
-## 📚 Network Design Principles
+##  Network Design Principles
 
 ### Defense in Depth
 Multiple security layers protect the network:
@@ -119,11 +119,11 @@ Multiple security layers protect the network:
 
 ## 👤 Author
 
-**Success-Sec** - Networking & Cybersecurity Student
+**Success Chidiebere** - Networking & Cybersecurity Student
 
 ---
 
-## 📄 License
+## License
 
 This project is open source and available under the MIT License.
 
